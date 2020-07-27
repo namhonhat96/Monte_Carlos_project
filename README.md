@@ -1,6 +1,7 @@
-# Monte_Carlos_project
-
+# Monte_Carlos_project - Parallel Programming
 # Objectives:
+Apply paralle programming concept to compute and predict stock prices
+
 There are two components of price movement:
 
 Drift: a constant directional movement that guides random value.

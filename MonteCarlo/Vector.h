@@ -1,11 +1,12 @@
-#ifndef _PERCENTCHANGE_H_
-#define _PERCENTCHANGE_H_
+#ifndef __VECTOR_H__
+#define __VECTOR_H__
 
-// Thread block size
-#define BLOCK_SIZE 4
+#define BLOCK_SIZE 1000
+#define VSIZE 1000
+#define SIM_SIZE 10000
+#define DAYS 8
 
-// Vector dimensions
-#define VSIZE 4 // vector size
+
 
 #define FATAL(msg, ...) \
     do {\
@@ -14,7 +15,6 @@
     } while(0)
 
 
-// Vector Structure declaration
 typedef struct {
 	//length of the vector
     unsigned int length;
@@ -22,6 +22,4 @@ typedef struct {
     float* elements;
 } Vector;
 
-
 #endif
-
